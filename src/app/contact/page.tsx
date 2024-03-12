@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function About() {
+export default function Contaxt() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
@@ -25,6 +25,50 @@ export default function About() {
           </p>
         </div>
       </div>
+      <div className="relative flex place-items-center">
+        <h1>Contact</h1>
+      </div>
+      <div className="mb-32 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4">
+      <div className="col-md-16">
+        <h3>My Contact</h3>
+        <p>Programmer Work Session</p>
+        <ul>
+          <li>Phone:(+66)0866911960</li>
+          <li>
+            Email:<a href="mailto:fangplay-working@hotmail.com"
+              >fangplay-working@hotmail.com</a
+            >
+          </li>
+          <li>
+            LinkedIn:
+            <a
+              href="https://www.linkedin.com/in/sirirak-sophakarn-442310158/"
+              target="_blank"
+              >Sirirak Sophakarn</a
+            >
+          </li>
+          <li>GitHub:<a href="https://github.com/fangplay" target="_blank">FANGPLAY Sirirak</a></li>
+        </ul>
+        <br></br>
+        <p>Channel Work Session</p>
+        <ul>
+          <li>Phone:(+66)0866911960</li>
+          <li>
+            Email:<a href="mailto:fangplay_2014@hotmail.com"
+              >fangplay_2014@hotmail.com</a
+            >
+          </li>
+          <li>
+            Facebook:
+            <a
+              href="https://www.facebook.com/fangplay.sirirak"
+              target="_blank"
+              >Sirirak Sophakarn</a
+            >
+          </li>
+        </ul>
+      </div>
+			</div>
     </main>
   );
 }

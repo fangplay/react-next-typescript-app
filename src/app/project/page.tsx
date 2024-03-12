@@ -25,6 +25,12 @@ export default function Project() {
           </p>
         </div>
       </div>
+      <div className="relative flex place-items-center">
+        <h1>Spectrum NEXT project</h1>
+      </div>
+      <div className="mb-32 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4">
+        <p>The SPECTRUM Next is started in 2017.</p>
+      </div>
     </main>
   );
 }
