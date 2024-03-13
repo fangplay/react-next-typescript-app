@@ -26,7 +26,7 @@ export default function Channel() {
         </div>
       </div>
       <div className="relative flex place-items-center">
-        <img src="../img/LOGO-X+8.png"/>
+        <Image src="../img/LOGO-X+8.png" alt="channel logo" width={1000} height={850}/>
       </div>
       <div className="mb-32 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4">
         <p>NeoXFANGPLAY is started in 2018.</p>
