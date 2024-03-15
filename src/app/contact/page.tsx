@@ -49,7 +49,7 @@ export default function Contaxt() {
           </li>
           <li>GitHub:<a href="https://github.com/fangplay" target="_blank">FANGPLAY Sirirak</a></li>
         </ul>
-        <br></br>
+        <br/>
         <p>Channel Work Session</p>
         <ul>
           <li>Phone:(+66)0866911960</li>
