@@ -1,4 +1,5 @@
 import Image from "next/image";
+import profilepic from "./images/profile-2024.jpg";
 
 export default function About() {
   return (
@@ -47,6 +48,7 @@ export default function About() {
               </div>
               <div className="col-md-6">
                 {/* <img src="../img/profile-2024.jpg" alt="profile picture" className="rounded-circle img-profile img-fluid border rounded-3 shadow-lg mb-4"/> */}
+                <Image src={profilepic} alt="profile picture" width={500} height={500}  className="rounded-circle img-profile img-fluid border rounded-3 shadow-lg mb-4"/>
               </div>
             </div>
           </div>
