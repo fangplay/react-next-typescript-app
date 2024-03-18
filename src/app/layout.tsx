@@ -34,12 +34,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
         <div className="copyright" id="copyright">
-          &copy;
-          <script>
-            document .getElementById("copyright")
-            .appendChild(document.createTextNode(new Date().getFullYear()));
-          </script>
-          Developed By FANGPLAY SIRIRAK All rights reserved.
+        &copy; {new Date().getFullYear()} SPECTRUMNext. All rights reserved.
         </div>
       </body>
     </html>

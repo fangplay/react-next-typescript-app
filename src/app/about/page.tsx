@@ -29,11 +29,17 @@ export default function About() {
       <div className="relative flex place-items-center">
         <h1>About FANGPLAY</h1>
       </div>
+      <br/>
       <div className="mb-32 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4">
       <div className="container-fluid">
           <div className="container">
             <div className="row">
-              <div className="col-md-6">
+              <div className="relative flex justify-center">
+                {/* <img src="../img/profile-2024.jpg" alt="profile picture" className="rounded-circle img-profile img-fluid border rounded-3 shadow-lg mb-4"/> */}
+                <Image src={profilepic} alt="profile picture" width={400} height={400} className="rounded-circle img-profile img-fluid border shadow-lg"/>
+              </div>
+              <br/>
+              <div className="lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4">
                 <h2>Basic Information</h2>
                 <p>Name : Sirirak Sophakarn</p>
                 <p>Chinese Name : 西裡拉克·索法卡恩</p>
@@ -46,17 +52,13 @@ export default function About() {
                 <p>Birth Date : 5 August 1995</p>
                 <p>Blood Line : B</p>
               </div>
-              <div className="col-md-6">
-                {/* <img src="../img/profile-2024.jpg" alt="profile picture" className="rounded-circle img-profile img-fluid border rounded-3 shadow-lg mb-4"/> */}
-                <Image src={profilepic} alt="profile picture" width={500} height={500}  className="rounded-circle img-profile img-fluid border rounded-3 shadow-lg mb-4"/>
-              </div>
             </div>
           </div>
         </div>
         <div className="container-fluid">
           <div className="container">
             <div className="row">
-              <div className="col-md-6">
+              <div className="lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4">
                 <h2>Langauge</h2>
                 <p>ไทย,อังกฤษ,จีน,ญี่ปุ่น,เกาหลี</p>
                 <p>Thai,English,Chinese,Japanese,Korean</p>
@@ -64,7 +66,7 @@ export default function About() {
                 <p>タイ語,英語,中国語,日本語,韓国語</p>
                 <p>태국어, 영어, 중국어, 일본어, 한국어</p>
               </div>
-			  <div className="col-md-6">
+			  <div className="lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4">
 				<h2>Score Langauge</h2>
 				<h3>TOEIC</h3>
 				<p>Score : 515(On 21 November 2023)</p>
